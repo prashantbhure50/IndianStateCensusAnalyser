@@ -7,8 +7,6 @@ namespace IndianStateCensusAnalyser
 {
     class CensusAdapter
     {
-
-
         protected string[] GetCensusData(string csvFilePath, string dataHeaders)
         {
             string[] censusData;
@@ -28,6 +26,4 @@ namespace IndianStateCensusAnalyser
             return censusData;
         }
     }
-
-
 }

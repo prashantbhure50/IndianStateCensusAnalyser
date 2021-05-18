@@ -14,7 +14,6 @@ namespace IndianStateCensusAnalyser
             INCORRECT_HEADER,
             NO_SUCH_COUNTRY
         }
-
         public ExceptionType eType;
         public CensusAnalyserException(string message, ExceptionType exceptionType) : base(message)
         {
@@ -22,6 +21,4 @@ namespace IndianStateCensusAnalyser
         }
 
     }
-
-
 }

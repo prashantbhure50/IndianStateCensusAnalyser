@@ -22,7 +22,6 @@ namespace IndianStateCensusAnalyser.DTO
         public double populationDensity;
         public double housingDensity;
         private CensusDataDAO censusDataDAO;
-
         public CensusDTO(StateCodeDAO stateCodeDao)
         {
             this.serialNumber = stateCodeDao.serialNumber;
@@ -30,7 +29,6 @@ namespace IndianStateCensusAnalyser.DTO
             this.tin = stateCodeDao.tin;
             this.stateCode = stateCodeDao.stateCode;
         }
-
         public CensusDTO(CensusDataDAO censusDataDao)
         {
             this.state = censusDataDao.state;
@@ -38,9 +36,6 @@ namespace IndianStateCensusAnalyser.DTO
             this.area = censusDataDao.area;
             this.density = censusDataDao.density;
         }
-
-       
-
         //public CensusDTO(CensusDataDAO censusDataDAO)
         //{
         //    this.censusDataDAO = censusDataDAO;
@@ -56,8 +51,5 @@ namespace IndianStateCensusAnalyser.DTO
         //    this.waterArea = usCensusDao.waterArea;
         //    this.landArea = usCensusDao.landArea;
         //}
-
     }
-
-
 }

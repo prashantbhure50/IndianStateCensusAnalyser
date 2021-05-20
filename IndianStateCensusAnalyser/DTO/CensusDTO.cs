@@ -21,7 +21,7 @@ namespace IndianStateCensusAnalyser.DTO
         public double landArea;
         public double populationDensity;
         public double housingDensity;
-        private CensusDataDAO censusDataDAO;
+        //private CensusDataDAO censusDataDAO;
         public CensusDTO(StateCodeDAO stateCodeDao)
         {
             this.serialNumber = stateCodeDao.serialNumber;
